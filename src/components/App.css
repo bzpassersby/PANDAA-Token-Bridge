@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@400;700&display=swap");
+
+:root {
+  --clr-dark: #615c47;
+  --clr-light: #e9e4bf;
+  --clr-white: #e6e4d6;
+}
+
+html {
+  font-family: "Rubik" !important;
+  font-weight: 400;
+}
+
+body {
+  background: var(--clr-white);
+
+  min-height: 100vh;
+
+  font-family: "Rubik";
+}
+
+main {
+  min-height: 100vh;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5em;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.flex-item {
+  margin: 0.5em;
+}
+
+h1,
+h2 {
+  font-family: "Rubik";
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.navbar {
+  display: flex;
+  height: 3rem;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 8px;
+
+  background-color: rgb(232, 224, 185);
+
+  color: #fff;
+}
+
+.nav-links {
+  color: #fff;
+}
+
+.logo {
+  max-width: 30px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.button-link {
+  display: flex;
+  min-width: 150px;
+  justify-content: center;
+  background: var(--clr-light);
+  color: var(--clr-dark);
+  border: 0.1px solid var(--clr-dark);
+  border-radius: 0.5em;
+  height: 2rem;
+  padding: 0.2rem;
+  text-decoration: none;
+  font-weight: 700 !important;
+  transition: all 250ms ease;
+}
+.button-link:hover {
+  background: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  min-width: 150px;
+  max-height: 2.5rem;
+  padding: 0.35rem 0.5rem;
+
+  background: var(--clr-light);
+  color: var(--clr-dark);
+
+  border: 0.1px solid var(--clr-dark);
+  border-radius: 0.5em;
+
+  text-decoration: none;
+  font-weight: 700 !important;
+
+  cursor: pointer;
+
+  transition: all 250ms ease;
+}
+
+.button:hover {
+  background: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+.border-generic {
+  border: 0.1px solid var(--clr-dark);
+  border-radius: 0.5em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
