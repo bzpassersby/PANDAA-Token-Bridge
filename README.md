@@ -149,7 +149,7 @@ https://testnet.bscscan.com
 ```
 
 - Add Pandaa token to your MetaMask on Goerli and Bsc testnet.
-  Click `Add Token to Metamask` button would add Pandaa token symbol on your metamask goerli and bsc networks. You should be able to see some Pandaa Token balance on both networks instantaly.
+  Click `Add Token to Metamask` button would add Pandaa token symbol on your metamask goerli and bsc networks. You should be able to see some Pandaa Token balance on both networks instantly.
 
 - Connect your wallet and input an amount in ether to bridge. You should receive metamask prompt to sign message and then confirm the transaction. After a short wait(typically less than 1 minute), you should see the waiting message disappear. And you can check your new Pandda token balance which confirms
   the bridge is successful.
